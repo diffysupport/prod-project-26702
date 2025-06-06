@@ -32,7 +32,7 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    delay: 5
+    delay: 15
     scroll: false
     headers:
         - { header: '', value: '' }
