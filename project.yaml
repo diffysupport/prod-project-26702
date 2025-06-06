@@ -24,7 +24,7 @@ basic:
         - /accessibility-statement
     monitoring:
         days: {  }
-        type: daily
+        type: ''
         schedule_time: '12:30 AM'
         schedule_time_zone: Europe/London
         compare_with: last-production
