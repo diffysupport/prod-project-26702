@@ -1,0 +1,52 @@
+basic:
+    name: 'Health Education England (Migration project)'
+    environments:
+        production: 'https://www.hee.nhs.uk/'
+        staging: 'https://hee-d10.uat.rroom.net/'
+        development: ''
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: webadmin, password: rE9ZkDOC5l }
+        development: null
+    breakpoints:
+        - 320
+        - 1200
+    pages:
+        - /
+        - /about-us/contact-us/privacy-cookies
+        - /our-work
+        - /news-blogs-events
+        - /covid-19
+        - /about-2
+        - /covid-19/doctors-training-0
+        - /covid-19/training-recovery-educator-toolkit
+        - /about-2/contact-us-2
+        - /accessibility-statement
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 5
+    scroll: false
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    sensitivity: 5
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
