@@ -2,12 +2,10 @@ basic:
     name: 'Health Education England (Migration project)'
     environments:
         production: 'https://www.hee.nhs.uk/'
-        staging: 'https://hee-d10.uat.rroom.net/'
+        staging: 'https://hee-d10.stg.uat.rroom.net/'
         development: ''
     basicAuth:
-        production: { user: '', password: '' }
         staging: { user: webadmin, password: rE9ZkDOC5l }
-        development: { user: '', password: '' }
     breakpoints:
         - 320
         - 1200
@@ -34,13 +32,11 @@ advanced:
     remove: ''
     delay: 15
     scroll: false
-    headers:
-        - { header: '', value: '' }
+    headers: {  }
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content:
-        - { selector: '', type: title }
+    mock_content: {  }
     sensitivity: 5
     night_mode: false
     retina_images: false
