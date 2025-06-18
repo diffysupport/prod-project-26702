@@ -7,7 +7,7 @@ basic:
     basicAuth:
         staging: { user: webadmin, password: rE9ZkDOC5l }
     breakpoints:
-        - 320
+        - 350
         - 1200
     pages:
         - /node/8964
