@@ -88,7 +88,7 @@ advanced:
     custom_js: ''
     custom_css: ''
     mock_content: {  }
-    sensitivity: 5
+    sensitivity: 15
     night_mode: false
     retina_images: false
     single_ip: false
