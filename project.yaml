@@ -2,7 +2,7 @@ basic:
     name: 'Health Education England (Migration project)'
     environments:
         production: 'https://www.hee.nhs.uk/'
-        staging: 'https://hee-d10.stg.uat.rroom.net/'
+        staging: 'https://hee-d10-stg.uat.rroom.net/'
         development: ''
     basicAuth:
         staging: { user: webadmin, password: rE9ZkDOC5l }
