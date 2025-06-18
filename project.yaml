@@ -137,7 +137,7 @@ advanced:
     mask: ''
     remove: ''
     delay: 15
-    scroll: false
+    scroll: true
     headers: {  }
     cookies: ''
     custom_js: ''
