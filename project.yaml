@@ -178,7 +178,7 @@ basic:
         compare_with_fresh: production
 advanced:
     mask: ''
-    remove: ''
+    remove: "body > div.dialog-off-canvas-main-canvas > div > header\nbody > div.dialog-off-canvas-main-canvas > div > div"
     delay: 15
     scroll: true
     headers: {  }
@@ -186,7 +186,7 @@ advanced:
     custom_js: ''
     custom_css: ''
     mock_content: {  }
-    sensitivity: 15
+    sensitivity: 30
     night_mode: false
     retina_images: false
     single_ip: false
