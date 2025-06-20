@@ -20,8 +20,8 @@ basic:
         compare_with: last-production
         compare_with_fresh: production
 advanced:
-    mask: "header[class='header ']\nsection#nhse-global-menu\nsection[id='nhse-global-menu']\ndiv[class='breadcrumb']\nfooter[class]"
-    remove: "header[class='header ']\nsection#nhse-global-menu\nsection[id='nhse-global-menu']\ndiv[class='breadcrumb']\nfooter[class]"
+    mask: "header[class='header ']\ndiv[id=\"block-hee-breadcrumbs\"]\nfooter[class='footer']\nsection#nhse-global-menu\nsection[id='nhse-global-menu']\ndiv[class='breadcrumb']\nfooter[class]"
+    remove: "header[class='header ']\ndiv[id=\"block-hee-breadcrumbs\"]\nfooter[class='footer']\nsection#nhse-global-menu\nsection[id='nhse-global-menu']\ndiv[class='breadcrumb']\nfooter[class]"
     delay: 15
     scroll: true
     headers: {  }
