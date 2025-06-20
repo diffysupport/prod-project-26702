@@ -10,8 +10,8 @@ basic:
         - 350
         - 1200
     pages:
-        - /node/4448
-        - /node/5142
+        - /node/5651
+        - /node/5929
     monitoring:
         days: {  }
         type: ''
